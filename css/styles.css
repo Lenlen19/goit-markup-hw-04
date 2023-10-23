@@ -27,7 +27,7 @@ letter-spacing: 0.54px;
 text-transform: uppercase;
 }
 .logo span {
-    color: var(--IRIS)
+    color: var(--IRIS);  
 }
 nav .logo{
     color: var(--NAVY);
@@ -179,4 +179,22 @@ letter-spacing: 0.4px;
 }
 .description{
     text-align: center;
+}
+/** Styling of icon**/
+.top-icon{
+    padding: 24px 0;
+    text-align: center;
+    background-color: var(--CLOUD);
+}
+.team ul li{
+    text-align: center;
+}
+.team-socials{
+    display: flex;
+    justify-content: space-around;
+}
+.team-soci{
+    background-color: var(--IRIS);
+    padding: 15px;
+    border-radius: 50%;
 }
