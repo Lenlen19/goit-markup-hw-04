@@ -103,6 +103,7 @@ ul.list {
     letter-spacing: 0.32px;
     display:flex;
     
+    
 }
 
 div ul.list li a{
@@ -139,9 +140,6 @@ header .style-flex{
     padding-right: 40px;
 }
 
-.container{
-    width: 1158px;
-}
 .disflex{
     display:flex;
     align-items: center;
@@ -162,6 +160,10 @@ header .list{
     padding-bottom:120px;
     width: 1158px;
     font-size: 36;
+    
+}
+img{
+    padding-right: 10px;
 }
 .s-list{
     display: flex;
@@ -182,12 +184,13 @@ letter-spacing: 0.4px;
 }
 /** Styling of icon**/
 .top-icon{
-    padding: 24px 0;
+    padding: 24px 0px;
     text-align: center;
     background-color: var(--CLOUD);
 }
 .team ul li{
     text-align: center;
+    
 }
 .team-socials{
     display: flex;
@@ -195,6 +198,30 @@ letter-spacing: 0.4px;
 }
 .team-soci{
     background-color: var(--IRIS);
-    padding: 15px;
+    height: 40px;
+    width: 40px;
     border-radius: 50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.team-soci svg{
+    fill:white;
+}
+.team-caption{
+    background-color: var(--WHITE);
+    padding: 32px 0;
+}
+.our section{
+    background-color: var(--CLOUD);
+}
+.customer-icon{
+    border: 1px solid #8e8f99;
+    padding:16px 32px;
+};
+.customer-icon svg{
+    fill:#8e8f99 ;
+}
+.customer-icon:hover svg, .customer-icon:focus svg{
+    border-color:var(--IRIS)
 }
