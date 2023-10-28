@@ -102,7 +102,7 @@ ul.list {
     line-height: 150%;
     letter-spacing: 0.32px;
     display:flex;
-    
+    text-align: center;
     
 }
 
@@ -171,6 +171,10 @@ img{
     justify-content: space-around;
     gap: 40px;
     }
+    .list{
+        gap:30px;
+        
+    }
 h2 {
 font-family: Roboto;
 font-size: 20px;
@@ -188,7 +192,7 @@ letter-spacing: 0.4px;
     text-align: center;
     background-color: var(--CLOUD);
 }
-.team ul li{
+.team ul .list{
     text-align: center;
     
 }
@@ -215,13 +219,24 @@ letter-spacing: 0.4px;
 .our section{
     background-color: var(--CLOUD);
 }
-.customer-icon{
+
+.b-icon{
     border: 1px solid #8e8f99;
     padding:16px 32px;
 };
-.customer-icon svg{
+.b-icon svg{
     fill:#8e8f99 ;
 }
-.customer-icon:hover svg, .customer-icon:focus svg{
+.b-icon:hover svg, 
+.b-icon:focus svg{
+    fill: var(--IRIS)
+}
+.b-icon:hover, 
+.b-icon:focus{
     border-color:var(--IRIS)
+}
+.customers ul{
+    justify-content: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
